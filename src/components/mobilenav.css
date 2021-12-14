@@ -1,0 +1,77 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.toggleMobileButton {
+  border: none;
+  background: none;
+  display: flex;
+  margin: 2rem 3rem 0 0;
+  z-index: 3;
+}
+
+.toggleMobileButtonImg {
+  padding: 5px;
+}
+
+.mobileNavDiv {
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+}
+
+.mobileNavLogo {
+  display: flex;
+  margin: 2rem 0 0 3rem;
+  z-index: 3;
+}
+
+.mobileNavUl {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 2rem 0 1rem 0;
+  z-index: 3;
+  align-items: center;
+  position: absolute;
+}
+
+.mobileNavUl > li {
+  margin: 10px 10px;
+  z-index: 3;
+}
+
+li {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+  color: hsl(230, 29%, 20%);
+  font-size: 18px;
+}
+
+li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.line {
+  opacity: 20%;
+  width: 100%;
+  height: 5px;
+  background: hsl(231, 7%, 65%);
+}
+
+.navUl:last-child {
+  margin-right: 10rem;
+}
+
+.login {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+  color: hsl(231, 7%, 65%);
+}

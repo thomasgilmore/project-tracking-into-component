@@ -1,0 +1,148 @@
+.bodyContainer {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 6rem 0;
+}
+
+.bodyTextDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 35px 25px;
+  align-items: flex-start;
+}
+
+.backgroundSquare {
+  background: hsl(207, 33%, 95%);
+  border-radius: 15%;
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  top: -40%;
+  left: 48%;
+  margin: 5px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.illustrationOfDevices {
+  margin: 50px 25px;
+  position: absolute;
+  left: 50%;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.newDiv {
+  display: flex;
+}
+
+.new {
+  border-radius: 25px;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  background-color: hsl(230, 29%, 20%);
+  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.monographDashboardText {
+  font-family: 'Barlow Condensed', sans-serif;
+  color:  hsl(231, 7%, 65%);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.powerInsightsTitle {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  color: hsl(230, 29%, 20%);
+  margin-bottom: 2px;
+  font-size: 2.5rem;
+  letter-spacing: 0.5px;
+}
+
+.intoYourTeamTitle {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  color: hsl(230, 29%, 20%);
+  margin: 2px 0;
+  font-size: 2.5rem;
+  letter-spacing: 0.02px;
+}
+
+.projectPlaningText {
+ margin-bottom: 2px;
+ font-family: 'Barlow', sans-serif;
+ color: hsl(230, 11%, 40%);
+ font-weight: 400;
+ font-size: 18px;
+}
+
+.forAgileText {
+  margin-top: 2px;
+  font-family: 'Barlow', sans-serif;
+  color: hsl(230, 11%, 40%);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.buttonDiv {
+  display: flex;
+}
+
+.scheduleADemo {
+  color: #fff;
+  background-color: hsl(0, 100%, 68%);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.scheduleADemo:hover {
+  cursor: pointer;
+}
+
+.toSeeAPreviewText {
+  font-family: 'Barlow Condensed', sans-serif;
+  color:  hsl(231, 7%, 65%);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 900px) {
+  .backgroundSquare {
+    background: hsl(207, 33%, 95%);
+    border-radius: 15%;
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    top: -40%;
+    left: 48%;
+    margin: 5px;
+  }
+  
+  .illustrationOfDevices {
+    margin: 0;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 800px;
+    z-index: 2;
+  }
+
+  .bodyContainer {
+    width: 100%;
+  }
+
+  .bodyTextDiv {
+    margin: 500px 10px 50px 10px;
+  }
+}
